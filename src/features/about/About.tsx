@@ -16,7 +16,7 @@ const About = () => {
               />
             </div>
             <div className="max-w-2xl">
-              <p className="text-lg text-gray-700 dark:text-white font-serif  ">
+              <p className="text-lg text-gray-700 dark:text-white font-serif text-justify  ">
                 As a Frontend Developer specializing in React and TypeScript,
                 focused on building modern, scalable, and user-centered web
                 applications. I've established a strong foundation in creating
