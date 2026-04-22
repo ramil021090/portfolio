@@ -8,6 +8,7 @@ import { TbBrandReactNative } from "react-icons/tb";
 import { SiExpo } from "react-icons/si";
 import { TbBrandSupabase } from "react-icons/tb";
 import type { ReactNode } from "react";
+import { FaGithub } from "react-icons/fa";
 
 export interface IconTypes {
   iconName: string;
@@ -61,6 +62,11 @@ export const icons: IconTypes[] = [
   {
     iconName: "Supabase",
     icon: <TbBrandSupabase size={size} />,
+    level: "Proficient",
+  },
+  {
+    iconName: "Github",
+    icon: <FaGithub size={size} />,
     level: "Proficient",
   },
 ];
